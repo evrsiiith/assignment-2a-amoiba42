@@ -1,0 +1,30 @@
+{
+    "behaviors": [
+    {
+        "id":"PlayTrumpet",
+        "event":"OnCondition",
+        "actors":["Trumpet"],
+        "precondition":{
+        "runAlgorithm":"IsTrumpetHovered"
+        },
+        "action":{
+        "runAlgorithm":"PlayTrumpet"
+        }
+    },
+    {
+        "id":"UnlockChest",
+        "event":"OnCondition",
+        "actors":["Chest"],
+        "precondition":{
+        "all":[
+        {"equals":["Trumpet.state","played"]},
+        {"runAlgorithm":"AllBooksDestroyed"}
+        ]
+        },
+        "action":{
+        "runAlgorithm":"OpenChest",
+        "params":{"obj":"Chest"}
+        }
+    }
+    ]
+}

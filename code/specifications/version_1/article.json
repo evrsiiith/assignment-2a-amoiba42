@@ -1,0 +1,243 @@
+{
+  "articles": [
+    {
+      "_objectname": "Trumpet",
+      "_sid": null,
+      "_slabel": null,
+      "source": null,
+      "_IsHidden": 0,
+      "_enumcount": 0,
+      "_Is3DObject": 0,
+      "HasChild": 0,
+      "Children": null,
+      "shape": "Cylinder",
+      "Transform_initialpos": {
+        "x": "0",
+        "y": "1",
+        "z": "3"
+      },
+      "Transform_initialrotation": null,
+      "Transform_objectscale": null,
+      "XRRigidObject": null,
+      "states": [
+        "notPlayed",
+        "played"
+      ],
+      "context_img_source": ""
+    },
+    {
+      "_objectname": "Chest",
+      "_sid": null,
+      "_slabel": null,
+      "source": null,
+      "_IsHidden": 0,
+      "_enumcount": 0,
+      "_Is3DObject": 0,
+      "HasChild": 0,
+      "Children": null,
+      "shape": "Cube",
+      "Transform_initialpos": {
+        "x": "4",
+        "y": "0",
+        "z": "2"
+      },
+      "Transform_initialrotation": null,
+      "Transform_objectscale": null,
+      "XRRigidObject": null,
+      "states": [
+        "locked",
+        "open"
+      ],
+      "context_img_source": null
+    },
+    {
+      "_objectname": "Book_1",
+      "_sid": null,
+      "_slabel": null,
+      "source": null,
+      "_IsHidden": 0,
+      "_enumcount": 0,
+      "_Is3DObject": 0,
+      "HasChild": 0,
+      "Children": null,
+      "shape": "Cube",
+      "Transform_initialpos": {
+        "x": "-2.088",
+        "y": "0.845",
+        "z": "-2.359"
+      },
+      "Transform_initialrotation": {
+        "x": "0",
+        "y": "0",
+        "z": "90"
+      },
+      "Transform_objectscale": {
+        "x": "1",
+        "y": "1",
+        "z": "1"
+      },
+      "XRRigidObject": {
+        "value": "1",
+        "mass": "1",
+        "dragfriction": "0",
+        "angulardrag": "0.05",
+        "Isgravityenable": "true",
+        "IsKinematic": "false",
+        "CanInterpolate": "1",
+        "CollisionPolling": "continuous"
+      },
+      "states": [
+        "present",
+        "destroyed"
+      ],
+      "context_img_source": "Assets/my prefabs/Books/Prefabs/book_0001a.prefab"
+    },
+    {
+      "_objectname": "Book_2",
+      "_sid": null,
+      "_slabel": null,
+      "source": "Book_1",
+      "_IsHidden": 0,
+      "_enumcount": 0,
+      "_Is3DObject": 0,
+      "HasChild": 0,
+      "Children": null,
+      "shape": null,
+      "Transform_initialpos": {
+        "x": "-1.506",
+        "y": "0.845",
+        "z": "-3.443"
+      },
+      "Transform_initialrotation": null,
+      "Transform_objectscale": null,
+      "XRRigidObject": null,
+      "states": null,
+      "context_img_source": "Assets/my prefabs/Books/Prefabs/book_0001b.prefab"
+    },
+    {
+      "_objectname": "Book_3",
+      "_sid": null,
+      "_slabel": null,
+      "source": "Book_1",
+      "_IsHidden": 0,
+      "_enumcount": 0,
+      "_Is3DObject": 0,
+      "HasChild": 0,
+      "Children": null,
+      "shape": null,
+      "Transform_initialpos": {
+        "x": "-1.464",
+        "y": "0.845",
+        "z": "-2.792"
+      },
+      "Transform_initialrotation": null,
+      "Transform_objectscale": null,
+      "XRRigidObject": null,
+      "states": null,
+      "context_img_source": "Assets/my prefabs/Books/Prefabs/book_0001c.prefab"
+    },
+    {
+      "_objectname": "boo",
+      "_sid": null,
+      "_slabel": null,
+      "source": "Book_1",
+      "_IsHidden": 0,
+      "_enumcount": 0,
+      "_Is3DObject": 0,
+      "HasChild": 0,
+      "Children": null,
+      "shape": null,
+      "Transform_initialpos": {
+        "x": "-1.699",
+        "y": "0.845",
+        "z": "-2.533"
+      },
+      "Transform_initialrotation": null,
+      "Transform_objectscale": null,
+      "XRRigidObject": null,
+      "states": null,
+      "context_img_source": "Assets/my prefabs/Books/Prefabs/book_0001d.prefab"
+    },
+    {
+      "_objectname": "Vase_1",
+      "_sid": null,
+      "_slabel": null,
+      "source": null,
+      "_IsHidden": 0,
+      "_enumcount": 0,
+      "_Is3DObject": 0,
+      "HasChild": 0,
+      "Children": null,
+      "shape": "Cylinder",
+      "Transform_initialpos": null,
+      "Transform_initialrotation": null,
+      "Transform_objectscale": null,
+      "XRRigidObject": null,
+      "states": [
+        "idle",
+        "rotating"
+      ],
+      "context_img_source": null
+    },
+    {
+      "_objectname": "Vase_2",
+      "_sid": null,
+      "_slabel": null,
+      "source": "Vase_1",
+      "_IsHidden": 0,
+      "_enumcount": 0,
+      "_Is3DObject": 0,
+      "HasChild": 0,
+      "Children": null,
+      "shape": null,
+      "Transform_initialpos": null,
+      "Transform_initialrotation": null,
+      "Transform_objectscale": null,
+      "XRRigidObject": null,
+      "states": null,
+      "context_img_source": null
+    },
+    {
+      "_objectname": "Statue",
+      "_sid": null,
+      "_slabel": null,
+      "source": null,
+      "_IsHidden": 0,
+      "_enumcount": 0,
+      "_Is3DObject": 0,
+      "HasChild": 0,
+      "Children": null,
+      "shape": "Capsule",
+      "Transform_initialpos": null,
+      "Transform_initialrotation": null,
+      "Transform_objectscale": null,
+      "XRRigidObject": null,
+      "states": [
+        "idle",
+        "rotating"
+      ],
+      "context_img_source": null
+    },
+    {
+      "_objectname": "Cupboard",
+      "_sid": null,
+      "_slabel": null,
+      "source": null,
+      "_IsHidden": 0,
+      "_enumcount": 0,
+      "_Is3DObject": 0,
+      "HasChild": 0,
+      "Children": null,
+      "shape": "Cube",
+      "Transform_initialpos": null,
+      "Transform_initialrotation": null,
+      "Transform_objectscale": null,
+      "XRRigidObject": null,
+      "states": [
+        "closed",
+        "open"
+      ],
+      "context_img_source": null
+    }
+  ]
+}

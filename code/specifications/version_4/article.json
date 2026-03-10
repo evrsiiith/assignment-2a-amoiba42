@@ -1,0 +1,831 @@
+{
+  "articles": [
+    {
+      "_objectname": "Cupboard",
+      "_sid": null,
+      "_slabel": null,
+      "source": null,
+      "_IsHidden": 0,
+      "_enumcount": 0,
+      "_Is3DObject": 0,
+      "HasChild": 0,
+      "Children": null,
+      "shape": null,
+      "Transform_initialpos": {
+        "x": "3.03",
+        "y": "0",
+        "z": "-1.15"
+      },
+      "Transform_initialrotation": {
+        "x": "0",
+        "y": "270",
+        "z": "0"
+      },
+      "Transform_objectscale": {
+        "x": "1",
+        "y": "1",
+        "z": "1"
+      },
+      "XRRigidObject": {
+        "value": "0",
+        "mass": "0",
+        "dragfriction": "0",
+        "angulardrag": "0",
+        "Isgravityenable": "false",
+        "IsKinematic": "false",
+        "CanInterpolate": "0",
+        "CollisionPolling": "none"
+      },
+      "aud_hasaudio": "true",
+      "aud_type": "effect",
+      "aud_src": "Assets/Audio/Cupboard.wav",
+      "aud_volume": "1",
+      "aud_PlayInloop": "false",
+      "aud_IsSurround": "true",
+      "aud_Dopplerlevel": "1",
+      "aud_spread": "0",
+      "aud_mindist": "1",
+      "aud_maxdist": "20",
+      "states": [
+        "closed",
+        "open"
+      ],
+      "context_img_source": "Assets/my prefabs/Prefabs/Cupboard Variant.prefab"
+    },
+    {
+      "_objectname": "LionStatue",
+      "_sid": null,
+      "_slabel": null,
+      "source": null,
+      "_IsHidden": 0,
+      "_enumcount": 0,
+      "_Is3DObject": 0,
+      "HasChild": 0,
+      "Children": null,
+      "shape": "Statue03",
+      "Transform_initialpos": {
+        "x": "-3",
+        "y": "0",
+        "z": "1.301"
+      },
+      "Transform_initialrotation": {
+        "x": "0",
+        "y": "90",
+        "z": "0"
+      },
+      "Transform_objectscale": {
+        "x": "1",
+        "y": "1",
+        "z": "1"
+      },
+      "XRRigidObject": {
+        "value": "0",
+        "mass": "0",
+        "dragfriction": "0",
+        "angulardrag": "0",
+        "Isgravityenable": "false",
+        "IsKinematic": "false",
+        "CanInterpolate": "0",
+        "CollisionPolling": "none"
+      },
+      "aud_hasaudio": null,
+      "aud_type": null,
+      "aud_src": null,
+      "aud_volume": null,
+      "aud_PlayInloop": null,
+      "aud_IsSurround": null,
+      "aud_Dopplerlevel": null,
+      "aud_spread": null,
+      "aud_mindist": null,
+      "aud_maxdist": null,
+      "states": [
+        "idle",
+        "rotating"
+      ],
+      "context_img_source": "Assets/my prefabs/LionStatue/Prefab/LionStatue.prefab"
+    },
+    {
+      "_objectname": "Vase_2",
+      "_sid": null,
+      "_slabel": null,
+      "source": "Vase_1",
+      "_IsHidden": 0,
+      "_enumcount": 0,
+      "_Is3DObject": 0,
+      "HasChild": 0,
+      "Children": null,
+      "shape": "empty",
+      "Transform_initialpos": {
+        "x": "2.99",
+        "y": "0",
+        "z": "0.38"
+      },
+      "Transform_initialrotation": {
+        "x": "0",
+        "y": "0",
+        "z": "0"
+      },
+      "Transform_objectscale": {
+        "x": "1",
+        "y": "1",
+        "z": "1"
+      },
+      "XRRigidObject": {
+        "value": "0",
+        "mass": "0",
+        "dragfriction": "0",
+        "angulardrag": "0",
+        "Isgravityenable": "false",
+        "IsKinematic": "false",
+        "CanInterpolate": "0",
+        "CollisionPolling": "none"
+      },
+      "aud_hasaudio": null,
+      "aud_type": null,
+      "aud_src": null,
+      "aud_volume": null,
+      "aud_PlayInloop": null,
+      "aud_IsSurround": null,
+      "aud_Dopplerlevel": null,
+      "aud_spread": null,
+      "aud_mindist": null,
+      "aud_maxdist": null,
+      "states": null,
+      "context_img_source": null
+    },
+    {
+      "_objectname": "Vase_1",
+      "_sid": null,
+      "_slabel": null,
+      "source": null,
+      "_IsHidden": 0,
+      "_enumcount": 0,
+      "_Is3DObject": 0,
+      "HasChild": 0,
+      "Children": null,
+      "shape": null,
+      "Transform_initialpos": {
+        "x": "3",
+        "y": "0",
+        "z": "0.89"
+      },
+      "Transform_initialrotation": {
+        "x": "0",
+        "y": "0",
+        "z": "0"
+      },
+      "Transform_objectscale": {
+        "x": "1",
+        "y": "1",
+        "z": "1"
+      },
+      "XRRigidObject": {
+        "value": "0",
+        "mass": "0",
+        "dragfriction": "0",
+        "angulardrag": "0",
+        "Isgravityenable": "false",
+        "IsKinematic": "false",
+        "CanInterpolate": "0",
+        "CollisionPolling": "none"
+      },
+      "aud_hasaudio": null,
+      "aud_type": null,
+      "aud_src": null,
+      "aud_volume": null,
+      "aud_PlayInloop": null,
+      "aud_IsSurround": null,
+      "aud_Dopplerlevel": null,
+      "aud_spread": null,
+      "aud_mindist": null,
+      "aud_maxdist": null,
+      "states": [
+        "idle",
+        "rotating"
+      ],
+      "context_img_source": "Assets/my prefabs/Prefabs/Vase_6_dark.prefab"
+    },
+    {
+      "_objectname": "book_red",
+      "_sid": null,
+      "_slabel": null,
+      "source": "Book_1",
+      "_IsHidden": 0,
+      "_enumcount": 0,
+      "_Is3DObject": 0,
+      "HasChild": 0,
+      "Children": null,
+      "shape": "buch_0001d",
+      "Transform_initialpos": {
+        "x": "-1.699",
+        "y": "0.845",
+        "z": "-2.533"
+      },
+      "Transform_initialrotation": {
+        "x": "0",
+        "y": "0",
+        "z": "90"
+      },
+      "Transform_objectscale": {
+        "x": "1",
+        "y": "1",
+        "z": "1"
+      },
+      "XRRigidObject": {
+        "value": "0",
+        "mass": "1",
+        "dragfriction": "0",
+        "angulardrag": "0",
+        "Isgravityenable": "false",
+        "IsKinematic": "true",
+        "CanInterpolate": "1",
+        "CollisionPolling": "none"
+      },
+      "aud_hasaudio": null,
+      "aud_type": "effect",
+      "aud_src": "Assets/Audio/Book.wav",
+      "aud_volume": "1",
+      "aud_PlayInloop": "false",
+      "aud_IsSurround": "true",
+      "aud_Dopplerlevel": "1",
+      "aud_spread": "0",
+      "aud_mindist": "1",
+      "aud_maxdist": "20",
+      "states": [
+        "present",
+        "destroyed"
+      ],
+      "context_img_source": "Assets/my prefabs/Books/Prefabs/book_0001d.prefab"
+    },
+    {
+      "_objectname": "book_golden",
+      "_sid": null,
+      "_slabel": null,
+      "source": "Book_1",
+      "_IsHidden": 0,
+      "_enumcount": 0,
+      "_Is3DObject": 0,
+      "HasChild": 0,
+      "Children": null,
+      "shape": "buch_0001c",
+      "Transform_initialpos": {
+        "x": "-1.464",
+        "y": "0.845",
+        "z": "-2.9"
+      },
+      "Transform_initialrotation": {
+        "x": "0",
+        "y": "0",
+        "z": "90"
+      },
+      "Transform_objectscale": {
+        "x": "1",
+        "y": "1",
+        "z": "1"
+      },
+      "XRRigidObject": {
+        "value": "0",
+        "mass": "1",
+        "dragfriction": "0",
+        "angulardrag": "0",
+        "Isgravityenable": "false",
+        "IsKinematic": "true",
+        "CanInterpolate": "1",
+        "CollisionPolling": "none"
+      },
+      "aud_hasaudio": null,
+      "aud_type": "effect",
+      "aud_src": "Assets/Audio/Book.wav",
+      "aud_volume": "1",
+      "aud_PlayInloop": "false",
+      "aud_IsSurround": "true",
+      "aud_Dopplerlevel": "1",
+      "aud_spread": "0",
+      "aud_mindist": "1",
+      "aud_maxdist": "20",
+      "states": [
+        "present",
+        "destroyed"
+      ],
+      "context_img_source": "Assets/my prefabs/Books/Prefabs/book_0001c.prefab"
+    },
+    {
+      "_objectname": "book_green",
+      "_sid": null,
+      "_slabel": null,
+      "source": "Book_1",
+      "_IsHidden": 0,
+      "_enumcount": 0,
+      "_Is3DObject": 0,
+      "HasChild": 0,
+      "Children": null,
+      "shape": "buch_0001b",
+      "Transform_initialpos": {
+        "x": "-1.506",
+        "y": "0.845",
+        "z": "-3.443"
+      },
+      "Transform_initialrotation": {
+        "x": "0",
+        "y": "0",
+        "z": "90"
+      },
+      "Transform_objectscale": {
+        "x": "1",
+        "y": "1",
+        "z": "1"
+      },
+      "XRRigidObject": {
+        "value": "0",
+        "mass": "1",
+        "dragfriction": "0",
+        "angulardrag": "0",
+        "Isgravityenable": "false",
+        "IsKinematic": "true",
+        "CanInterpolate": "1",
+        "CollisionPolling": "none"
+      },
+      "aud_hasaudio": null,
+      "aud_type": "effect",
+      "aud_src": "Assets/Audio/Book.wav",
+      "aud_volume": "1",
+      "aud_PlayInloop": "false",
+      "aud_IsSurround": "true",
+      "aud_Dopplerlevel": "1",
+      "aud_spread": "0",
+      "aud_mindist": "1",
+      "aud_maxdist": "20",
+      "states": [
+        "present",
+        "destroyed"
+      ],
+      "context_img_source": "Assets/my prefabs/Books/Prefabs/book_0001b.prefab"
+    },
+    {
+      "_objectname": "book_brown",
+      "_sid": null,
+      "_slabel": null,
+      "source": null,
+      "_IsHidden": 0,
+      "_enumcount": 0,
+      "_Is3DObject": 0,
+      "HasChild": 0,
+      "Children": null,
+      "shape": "buch_0001a",
+      "Transform_initialpos": {
+        "x": "-2.088",
+        "y": "1.0",
+        "z": "-2.359"
+      },
+      "Transform_initialrotation": {
+        "x": "0",
+        "y": "0",
+        "z": "90"
+      },
+      "Transform_objectscale": {
+        "x": "1",
+        "y": "1",
+        "z": "1"
+      },
+      "XRRigidObject": {
+        "value": "0",
+        "mass": "1",
+        "dragfriction": "0",
+        "angulardrag": "0",
+        "Isgravityenable": "false",
+        "IsKinematic": "true",
+        "CanInterpolate": "1",
+        "CollisionPolling": "none"
+      },
+      "aud_hasaudio": "true",
+      "aud_type": "effect",
+      "aud_src": "Assets/Audio/Book.wav",
+      "aud_volume": "1",
+      "aud_PlayInloop": "false",
+      "aud_IsSurround": "true",
+      "aud_Dopplerlevel": "1",
+      "aud_spread": "0",
+      "aud_mindist": "1",
+      "aud_maxdist": "20",
+      "states": [
+        "present",
+        "destroyed"
+      ],
+      "context_img_source": "Assets/my prefabs/Books/Prefabs/book_0001b.prefab"
+    },
+    {
+      "_objectname": "Chest",
+      "_sid": null,
+      "_slabel": null,
+      "source": null,
+      "_IsHidden": 0,
+      "_enumcount": 0,
+      "_Is3DObject": 0,
+      "HasChild": 0,
+      "Children": null,
+      "shape": null,
+      "Transform_initialpos": {
+        "x": "-3.304",
+        "y": "0.28",
+        "z": "-0.979"
+      },
+      "Transform_initialrotation": {
+        "x": "0",
+        "y": "0",
+        "z": "0"
+      },
+      "Transform_objectscale": {
+        "x": "1",
+        "y": "1",
+        "z": "1"
+      },
+      "XRRigidObject": {
+        "value": "0",
+        "mass": "0",
+        "dragfriction": "0",
+        "angulardrag": "0",
+        "Isgravityenable": "false",
+        "IsKinematic": "false",
+        "CanInterpolate": "0",
+        "CollisionPolling": "none"
+      },
+      "aud_hasaudio": "true",
+      "aud_type": "effect",
+      "aud_src": "Assets/Audio/Chest.wav",
+      "aud_volume": "1",
+      "aud_PlayInloop": "false",
+      "aud_IsSurround": "true",
+      "aud_Dopplerlevel": "1",
+      "aud_spread": "0",
+      "aud_mindist": "1",
+      "aud_maxdist": "20",
+      "states": [
+        "locked",
+        "open"
+      ],
+      "context_img_source": "Assets/my prefabs/Prefabs/Chest.prefab"
+    },
+    {
+      "_objectname": "Trumpet",
+      "_sid": null,
+      "_slabel": null,
+      "source": null,
+      "_IsHidden": 0,
+      "_enumcount": 0,
+      "_Is3DObject": 0,
+      "HasChild": 0,
+      "Children": null,
+      "shape": null,
+      "Transform_initialpos": {
+        "x": "2.005",
+        "y": "1.041",
+        "z": "-3.5"
+      },
+      "Transform_initialrotation": {
+        "x": "0",
+        "y": "0",
+        "z": "0"
+      },
+      "Transform_objectscale": {
+        "x": "1",
+        "y": "1",
+        "z": "1"
+      },
+      "XRRigidObject": {
+        "value": "0",
+        "mass": "0",
+        "dragfriction": "0",
+        "angulardrag": "0",
+        "Isgravityenable": "false",
+        "IsKinematic": "false",
+        "CanInterpolate": "0",
+        "CollisionPolling": "none"
+      },
+      "aud_hasaudio": "true",
+      "aud_type": "effect",
+      "aud_src": "Assets/Audio/Trumpet.wav",
+      "aud_volume": "1",
+      "aud_PlayInloop": "false",
+      "aud_IsSurround": "true",
+      "aud_Dopplerlevel": "1",
+      "aud_spread": "0",
+      "aud_mindist": "1",
+      "aud_maxdist": "20",
+      "states": [
+        "notPlayed",
+        "played"
+      ],
+      "context_img_source": "Assets/my prefabs/Prefabs/Trumpet.prefab"
+    },
+    {
+      "_objectname": "Rug2",
+      "_sid": null,
+      "_slabel": null,
+      "source": null,
+      "_IsHidden": 0,
+      "_enumcount": 0,
+      "_Is3DObject": 0,
+      "HasChild": 0,
+      "Children": null,
+      "shape": "Rug",
+      "Transform_initialpos": {
+        "x": "0",
+        "y": "0",
+        "z": "0"
+      },
+      "Transform_initialrotation": {
+        "x": "0",
+        "y": "0",
+        "z": "0"
+      },
+      "Transform_objectscale": {
+        "x": "3",
+        "y": "1",
+        "z": "2"
+      },
+      "XRRigidObject": {
+        "value": "0",
+        "mass": "0",
+        "dragfriction": "0",
+        "angulardrag": "0",
+        "Isgravityenable": "false",
+        "IsKinematic": "false",
+        "CanInterpolate": "0",
+        "CollisionPolling": "none"
+      },
+      "aud_hasaudio": null,
+      "aud_type": null,
+      "aud_src": null,
+      "aud_volume": null,
+      "aud_PlayInloop": null,
+      "aud_IsSurround": null,
+      "aud_Dopplerlevel": null,
+      "aud_spread": null,
+      "aud_mindist": null,
+      "aud_maxdist": null,
+      "states": [
+        "idle"
+      ],
+      "context_img_source": "Assets/my prefabs/Prefabs/Rug2.prefab"
+    },
+    {
+      "_objectname": "Door",
+      "_sid": null,
+      "_slabel": null,
+      "source": null,
+      "_IsHidden": 0,
+      "_enumcount": 0,
+      "_Is3DObject": 0,
+      "HasChild": 0,
+      "Children": null,
+      "shape": "Door",
+      "Transform_initialpos": {
+        "x": "0.015",
+        "y": "0",
+        "z": "4.6"
+      },
+      "Transform_initialrotation": {
+        "x": "0",
+        "y": "0",
+        "z": "0"
+      },
+      "Transform_objectscale": {
+        "x": "1",
+        "y": "1",
+        "z": "1"
+      },
+      "XRRigidObject": {
+        "value": "1",
+        "mass": "1",
+        "dragfriction": "0",
+        "angulardrag": "0",
+        "Isgravityenable": "true",
+        "IsKinematic": "false",
+        "CanInterpolate": "0",
+        "CollisionPolling": "continuous"
+      },
+      "aud_hasaudio": null,
+      "aud_type": null,
+      "aud_src": null,
+      "aud_volume": null,
+      "aud_PlayInloop": null,
+      "aud_IsSurround": null,
+      "aud_Dopplerlevel": null,
+      "aud_spread": null,
+      "aud_mindist": null,
+      "aud_maxdist": null,
+      "states": [
+        "closed",
+        "open"
+      ],
+      "context_img_source": "Assets/my prefabs/Prefabs/Door.prefab"
+    },
+    {
+      "_objectname": "Drawer",
+      "_sid": null,
+      "_slabel": null,
+      "source": null,
+      "_IsHidden": 0,
+      "_enumcount": 0,
+      "_Is3DObject": 0,
+      "HasChild": 0,
+      "Children": null,
+      "shape": "closet4",
+      "Transform_initialpos": {
+        "x": "2",
+        "y": "0",
+        "z": "-3.5"
+      },
+      "Transform_initialrotation": {
+        "x": "0",
+        "y": "0",
+        "z": "0"
+      },
+      "Transform_objectscale": {
+        "x": "1",
+        "y": "1",
+        "z": "1"
+      },
+      "XRRigidObject": {
+        "value": "0",
+        "mass": "0",
+        "dragfriction": "0",
+        "angulardrag": "0",
+        "Isgravityenable": "false",
+        "IsKinematic": "false",
+        "CanInterpolate": "0",
+        "CollisionPolling": "none"
+      },
+      "aud_hasaudio": null,
+      "aud_type": null,
+      "aud_src": null,
+      "aud_volume": null,
+      "aud_PlayInloop": null,
+      "aud_IsSurround": null,
+      "aud_Dopplerlevel": null,
+      "aud_spread": null,
+      "aud_mindist": null,
+      "aud_maxdist": null,
+      "states": [
+        "closed",
+        "open"
+      ],
+      "context_img_source": "Assets/my prefabs/Prefabs/Drawer Variant.prefab"
+    },
+    {
+      "_objectname": "Balista",
+      "_sid": null,
+      "_slabel": null,
+      "source": null,
+      "_IsHidden": 0,
+      "_enumcount": 0,
+      "_Is3DObject": 0,
+      "HasChild": 0,
+      "Children": null,
+      "shape": null,
+      "Transform_initialpos": {
+        "x": "2.99",
+        "y": "0",
+        "z": "2.38"
+      },
+      "Transform_initialrotation": {
+        "x": "0",
+        "y": "0",
+        "z": "0"
+      },
+      "Transform_objectscale": {
+        "x": "1",
+        "y": "1",
+        "z": "1"
+      },
+      "XRRigidObject": {
+        "value": "0",
+        "mass": "0",
+        "dragfriction": "0",
+        "angulardrag": "0",
+        "Isgravityenable": "false",
+        "IsKinematic": "false",
+        "CanInterpolate": "0",
+        "CollisionPolling": "none"
+      },
+      "aud_hasaudio": null,
+      "aud_type": null,
+      "aud_src": null,
+      "aud_volume": null,
+      "aud_PlayInloop": null,
+      "aud_IsSurround": null,
+      "aud_Dopplerlevel": null,
+      "aud_spread": null,
+      "aud_mindist": null,
+      "aud_maxdist": null,
+      "states": [
+        "idle",
+        "loaded",
+        "fired"
+      ],
+      "context_img_source": "Assets/my prefabs/Prefabs/Balista.prefab"
+    },
+    {
+      "_objectname": "Floor",
+      "_sid": null,
+      "_slabel": null,
+      "source": null,
+      "_IsHidden": 0,
+      "_enumcount": 0,
+      "_Is3DObject": 0,
+      "HasChild": 0,
+      "Children": null,
+      "shape": "Plane",
+      "Transform_initialpos": {
+        "x": "0",
+        "y": "-0.03",
+        "z": "0"
+      },
+      "Transform_initialrotation": {
+        "x": "0",
+        "y": "0",
+        "z": "0"
+      },
+      "Transform_objectscale": {
+        "x": "1",
+        "y": "1",
+        "z": "1"
+      },
+      "XRRigidObject": {
+        "value": "0",
+        "mass": "0",
+        "dragfriction": "0",
+        "angulardrag": "0",
+        "Isgravityenable": "false",
+        "IsKinematic": "false",
+        "CanInterpolate": "0",
+        "CollisionPolling": "none"
+      },
+      "aud_hasaudio": null,
+      "aud_type": null,
+      "aud_src": null,
+      "aud_volume": null,
+      "aud_PlayInloop": null,
+      "aud_IsSurround": null,
+      "aud_Dopplerlevel": null,
+      "aud_spread": null,
+      "aud_mindist": null,
+      "aud_maxdist": null,
+      "states": [
+        "idle"
+      ],
+      "context_img_source": null
+    },
+    {
+      "_objectname": "Player",
+      "_sid": null,
+      "_slabel": null,
+      "source": null,
+      "_IsHidden": 0,
+      "_enumcount": 0,
+      "_Is3DObject": 0,
+      "HasChild": 0,
+      "Children": null,
+      "shape": "Capsule",
+      "Transform_initialpos": {
+        "x": "0",
+        "y": "1",
+        "z": "0"
+      },
+      "Transform_initialrotation": {
+        "x": "0",
+        "y": "0",
+        "z": "0"
+      },
+      "Transform_objectscale": {
+        "x": "1",
+        "y": "1",
+        "z": "1"
+      },
+      "XRRigidObject": {
+        "value": "0",
+        "mass": "0",
+        "dragfriction": "0",
+        "angulardrag": "0",
+        "Isgravityenable": "false",
+        "IsKinematic": "false",
+        "CanInterpolate": "0",
+        "CollisionPolling": "none"
+      },
+      "aud_hasaudio": null,
+      "aud_type": null,
+      "aud_src": null,
+      "aud_volume": null,
+      "aud_PlayInloop": null,
+      "aud_IsSurround": null,
+      "aud_Dopplerlevel": null,
+      "aud_spread": null,
+      "aud_mindist": null,
+      "aud_maxdist": null,
+      "states": [
+        "active"
+      ],
+      "context_img_source": "null"
+    }
+  ]
+}

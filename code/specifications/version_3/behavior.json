@@ -1,0 +1,120 @@
+{
+    "behaviors": [
+        {
+            "id": "PlayTrumpet",
+            "event": "OnCondition",
+            "actors": ["Trumpet"],
+            "precondition": {
+                "all": [
+                    { "equals": ["Self.state", "notPlayed"] },
+                    { "runAlgorithm": "IsTrumpetHovered" }
+                ]
+            },
+            "action": {
+                "runAlgorithm": "PlayTrumpet",
+                "params": { "obj": "Self" }
+            },
+            "postcondition": {
+                "equals": ["Self.state", "played"]
+            }
+        },
+        {
+            "id": "CollectBook",
+            "event": "OnCondition",
+            "actors": ["book_brown"],
+            "precondition": {
+                "all": [
+                    { "equals": ["Self.state", "present"] },
+                    { "runAlgorithm": "IsBookGrabbed", "params": { "obj": "Self" } }
+                ]
+            },
+            "action": {
+                "runAlgorithm": "CollectBook",
+                "params": { "obj": "Self" }
+            },
+            "postcondition": {
+                "equals": ["Self.state", "destroyed"]
+            }
+        },
+        {
+            "id": "UnlockChest",
+            "event": "OnCondition",
+            "actors": ["Chest"],
+            "precondition": {
+                "all": [
+                    { "equals": ["Self.state", "locked"] },
+                    { "equals": ["Trumpet.state", "played"] },
+                    { "equals": ["book_brown.state", "destroyed"] }
+                ]
+            },
+            "action": {
+                "runAlgorithm": "OpenChest",
+                "params": { "obj": "Self" }
+            },
+            "postcondition": {
+                "equals": ["Self.state", "open"]
+            }
+        },
+        {
+            "id": "ToggleCupboard",
+            "event": "OnCondition",
+            "actors": ["Cupboard"],
+            "precondition": {
+                "runAlgorithm": "IsCupboardInteracted",
+                "params": { "obj": "Self" }
+            },
+            "action": {
+                "runAlgorithm": "ToggleCupboard",
+                "params": { "obj": "Self" }
+            }
+        },
+        {
+            "id": "PickupStatue",
+            "event": "OnCondition",
+            "actors": ["LionStatue"],
+            "precondition": {
+                "all": [
+                    { "equals": ["Self.state", "idle"] },
+                    { "runAlgorithm": "IsStatueGrabbed", "params": { "obj": "Self" } }
+                ]
+            },
+            "action": {
+                "runAlgorithm": "StartRotatingStatue",
+                "params": { "obj": "Self" }
+            },
+            "postcondition": {
+                "equals": ["Self.state", "rotating"]
+            }
+        },
+        {
+            "id": "ReleaseStatue",
+            "event": "OnCondition",
+            "actors": ["LionStatue"],
+            "precondition": {
+                "all": [
+                    { "equals": ["Self.state", "rotating"] },
+                    { "runAlgorithm": "IsStatueReleased", "params": { "obj": "Self" } }
+                ]
+            },
+            "action": {
+                "runAlgorithm": "StopRotatingStatue",
+                "params": { "obj": "Self" }
+            },
+            "postcondition": {
+                "equals": ["Self.state", "idle"]
+            }
+        },
+        {
+            "id": "MovePlayer",
+            "event": "OnCondition",
+            "actors": ["Player"],
+            "precondition": {
+                "runAlgorithm": "IsPlayerActive"
+            },
+            "action": {
+                "runAlgorithm": "UpdatePlayer",
+                "params": { "obj": "Self" }
+            }
+        }
+    ]
+}

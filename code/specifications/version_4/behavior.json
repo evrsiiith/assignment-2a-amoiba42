@@ -1,0 +1,240 @@
+{
+    "behaviors": [
+        {
+            "id": "PlayTrumpet",
+            "event": "OnCondition",
+            "actors": ["Trumpet"],
+            "precondition": {
+                "runAlgorithm": "IsTrumpetHovered"
+            },
+            "action": {
+                "runAlgorithm": "PlayTrumpet",
+                "params": { "obj": "Self" }
+            },
+            "postcondition": {
+                "equals": ["Self.state", "played"]
+            }
+        },
+        {
+            "id": "CollectBrownBook",
+            "event": "OnCondition",
+            "actors": ["book_brown"],
+            "precondition": {
+                "all": [
+                    { "equals": ["Self.state", "present"] },
+                    { "runAlgorithm": "IsBookGrabbed", "params": { "obj": "Self" } }
+                ]
+            },
+            "action": {
+                "runAlgorithm": "CollectBook",
+                "params": { "obj": "Self" }
+            },
+            "postcondition": {
+                "equals": ["Self.state", "destroyed"]
+            }
+        },
+        {
+            "id": "CollectRedBook",
+            "event": "OnCondition",
+            "actors": ["book_red"],
+            "precondition": {
+                "all": [
+                    { "equals": ["Self.state", "present"] },
+                    { "runAlgorithm": "IsBookGrabbed", "params": { "obj": "Self" } }
+                ]
+            },
+            "action": {
+                "runAlgorithm": "CollectBook",
+                "params": { "obj": "Self" }
+            },
+            "postcondition": {
+                "equals": ["Self.state", "destroyed"]
+            }
+        },
+        {
+            "id": "CollectGoldenBook",
+            "event": "OnCondition",
+            "actors": ["book_golden"],
+            "precondition": {
+                "all": [
+                    { "equals": ["Self.state", "present"] },
+                    { "runAlgorithm": "IsBookGrabbed", "params": { "obj": "Self" } }
+                ]
+            },
+            "action": {
+                "runAlgorithm": "CollectBook",
+                "params": { "obj": "Self" }
+            },
+            "postcondition": {
+                "equals": ["Self.state", "destroyed"]
+            }
+        },
+        {
+            "id": "CollectGreenBook",
+            "event": "OnCondition",
+            "actors": ["book_green"],
+            "precondition": {
+                "all": [
+                    { "equals": ["Self.state", "present"] },
+                    { "runAlgorithm": "IsBookGrabbed", "params": { "obj": "Self" } }
+                ]
+            },
+            "action": {
+                "runAlgorithm": "CollectBook",
+                "params": { "obj": "Self" }
+            },
+            "postcondition": {
+                "equals": ["Self.state", "destroyed"]
+            }
+        },
+        {
+            "id": "UnlockChest",
+            "event": "OnCondition",
+            "actors": ["Chest"],
+            "precondition": {
+                "runAlgorithm": "ShouldOpenChest",
+                "params": { "obj": "Self" }
+            },
+            "action": {
+                "runAlgorithm": "OpenChest",
+                "params": { "obj": "Self" }
+            },
+            "postcondition": {
+                "equals": ["Self.state", "open"]
+            }
+        },
+        {
+            "id": "ToggleCupboard",
+            "event": "OnCondition",
+            "actors": ["Cupboard"],
+            "precondition": {
+                "runAlgorithm": "IsCupboardInteracted",
+                "params": { "obj": "Self" }
+            },
+            "action": {
+                "runAlgorithm": "ToggleCupboard",
+                "params": { "obj": "Self" }
+            }
+        },
+        {
+            "id": "PickupStatue",
+            "event": "OnCondition",
+            "actors": ["LionStatue"],
+            "precondition": {
+                "all": [
+                    { "equals": ["Self.state", "idle"] },
+                    { "runAlgorithm": "IsRotatableGrabbed", "params": { "obj": "Self" } }
+                ]
+            },
+            "action": {
+                "runAlgorithm": "StartRotatingObject",
+                "params": { "obj": "Self" }
+            },
+            "postcondition": {
+                "equals": ["Self.state", "rotating"]
+            }
+        },
+        {
+            "id": "ReleaseStatue",
+            "event": "OnCondition",
+            "actors": ["LionStatue"],
+            "precondition": {
+                "all": [
+                    { "equals": ["Self.state", "rotating"] },
+                    { "runAlgorithm": "IsRotatableReleased", "params": { "obj": "Self" } }
+                ]
+            },
+            "action": {
+                "runAlgorithm": "StopRotatingObject",
+                "params": { "obj": "Self" }
+            },
+            "postcondition": {
+                "equals": ["Self.state", "idle"]
+            }
+        },
+        {
+            "id": "PickupVase1",
+            "event": "OnCondition",
+            "actors": ["Vase_1"],
+            "precondition": {
+                "all": [
+                    { "equals": ["Self.state", "idle"] },
+                    { "runAlgorithm": "IsRotatableGrabbed", "params": { "obj": "Self" } }
+                ]
+            },
+            "action": {
+                "runAlgorithm": "StartRotatingObject",
+                "params": { "obj": "Self" }
+            },
+            "postcondition": {
+                "equals": ["Self.state", "rotating"]
+            }
+        },
+        {
+            "id": "ReleaseVase1",
+            "event": "OnCondition",
+            "actors": ["Vase_1"],
+            "precondition": {
+                "all": [
+                    { "equals": ["Self.state", "rotating"] },
+                    { "runAlgorithm": "IsRotatableReleased", "params": { "obj": "Self" } }
+                ]
+            },
+            "action": {
+                "runAlgorithm": "StopRotatingObject",
+                "params": { "obj": "Self" }
+            },
+            "postcondition": {
+                "equals": ["Self.state", "idle"]
+            }
+        },
+        {
+            "id": "PickupVase2",
+            "event": "OnCondition",
+            "actors": ["Vase_2"],
+            "precondition": {
+                "all": [
+                    { "equals": ["Self.state", "idle"] },
+                    { "runAlgorithm": "IsRotatableGrabbed", "params": { "obj": "Self" } }
+                ]
+            },
+            "action": {
+                "runAlgorithm": "StartRotatingObject",
+                "params": { "obj": "Self" }
+            },
+            "postcondition": {
+                "equals": ["Self.state", "rotating"]
+            }
+        },
+        {
+            "id": "ReleaseVase2",
+            "event": "OnCondition",
+            "actors": ["Vase_2"],
+            "precondition": {
+                "all": [
+                    { "equals": ["Self.state", "rotating"] },
+                    { "runAlgorithm": "IsRotatableReleased", "params": { "obj": "Self" } }
+                ]
+            },
+            "action": {
+                "runAlgorithm": "StopRotatingObject",
+                "params": { "obj": "Self" }
+            },
+            "postcondition": {
+                "equals": ["Self.state", "idle"]
+            }
+        },
+        {
+            "id": "MovePlayer",
+            "event": "OnCondition",
+            "actors": ["Player"],
+            "precondition": {
+                "runAlgorithm": "IsPlayerActive"
+            },
+            "action": {
+                "runAlgorithm": "UpdatePlayer",
+                "params": { "obj": "Self" }
+            }
+        }
+    ]
+}
